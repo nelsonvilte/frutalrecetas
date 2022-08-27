@@ -1,7 +1,7 @@
 .persona__imagen {
     background: red;
-    height: 300px;
-    width: 300px;
+
+
 }
 
 .persona__imagen--roberta {
@@ -22,6 +22,28 @@
     background-size: cover;
 
     border-radius: 100%;
-    height: 300px;
-    width: 300px;
+}
+
+@media screen and (min-width:0) {
+    .persona__imagen {
+        height: 200px;
+        width: 200px;
+
+    }
+}
+
+
+
+@media screen and (min-width:768px) {
+    .persona__imagen {
+        height: 220px;
+        width: 220px;
+    }
+}
+
+@media screen and (min-width:922px) {
+    .persona__imagen {
+        height: 300px;
+        width: 300px;
+    }
 }
